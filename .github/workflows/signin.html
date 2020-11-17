@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Books Store</title>
+    <link rel="stylesheet" href="sinin.css">
+    <link rel="stylesheet" media="screen and (max-width:1080px)" href="phone.css">
+    <link rel="shortcut icon" href="download f.jpg" type="image/x-icon">
+    <style>
+        
+        
+        .navbar {
+            background-color: rgb(84 46 46);
+            border-style: initial;
+            font-size: larger;
+
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            margin: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: 3px 3px;
+            font-style: normal;
+            margin: 25px;
+            padding-left: 20px;
+
+
+
+        }
+
+        a:hover {
+            color: teal;
+            background-color: rgb(16, 38, 243);
+
+        }
+
+        .navbar li a {
+
+            color: rgb(255 255 7);
+            cursor: pointer;
+            text-decoration: none
+        }
+
+        .search {
+
+            float: right;
+            margin-top: 2px;
+            padding-top: 28px;
+            size: 3px;
+            padding-right: 10px;
+
+
+
+
+        }
+
+        .book {
+
+            font-style: italic;
+            font-size: 30px;
+            padding-left: 580px;
+            color: rgb(190, 96, 29);
+        }
+
+        .img {
+            height: fit-content;
+            max-width: fit-content;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    
+
+    <header>
+
+
+        <nav class="navbar">
+            <ul>
+                <h1 class="book" style="color: white;">The Book Store</h1>
+                <li><a href="homelink.html">Home</a></li>
+                <li><a href="homelink.html">Catagory</a> </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="readonline.html">Read Online</a></li>
+                <li><a href="books.html">Buy Books</a></li>
+                <li><a href="feeback.html">Feedback</a></li>
+                <li><a href="card.html">CartItems</a></li>
+                <li><a href="Signin.html">Sign In</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                
+
+                <div class="search">
+
+                    <input type="text" name="search" id="" placeholder="Search Items">
+                   
+                   
+                    
+                </div>
+            </ul>
+
+
+
+
+
+        </nav>
+
+    </header>
+
+    
+
+
+    <div class="container">  
+        <form id="contact" action="" method="GET">
+          <h3>Create Account</h3>
+          
+        
+            <input placeholder="First Name" type="text" tabindex="1" required autofocus>
+            <input placeholder="Last Name" type="text" required autofocus>
+          
+          
+            <input placeholder="Your Email Address" type="email" tabindex="2" required autofocus>
+
+            <input placeholder="Password" type="password" name="password" id="" required autofocus>
+
+            <input placeholder="Reenter Your Password" type="password" name="passconfirm" id="" required autofocus>
+          
+            <input placeholder="Your Phone Number " type="tel" tabindex="3" required autofocus>
+        
+            <input placeholder="Address" type="text" tabindex="4" required autofocus>
+             
+            <button name="submit" type="submit" id="contact-submit">Submit</button>
+          
+          
+        </form>
+      </div>
+    
+    
+    
+
+
+
+
+
+</body>
+
+</html>
